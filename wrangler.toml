@@ -5,12 +5,12 @@ compatibility_flags = [ "nodejs_compat" ]
 
 # TODO: In-Workshop Activities. Uncomment the code below:
  
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "blazenote"
-# database_id = "<your-database-id>"
-# migrations_dir = "./migrations"
-# remote = true
+[[d1_databases]]
+binding = "DB"
+database_name = "blazenote"
+database_id = "07636f1c-a9e7-4d68-8c72-2371c0be37a2"
+migrations_dir = "./migrations"
+remote = true
 
 # [[r2_buckets]]
 # binding = "R2_BUCKET"
