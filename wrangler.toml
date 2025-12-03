@@ -12,11 +12,11 @@ database_id = "07636f1c-a9e7-4d68-8c72-2371c0be37a2"
 migrations_dir = "./migrations"
 remote = true
 
-# [[r2_buckets]]
-# binding = "R2_BUCKET"
-# bucket_name = "blazenote"
-# preview_bucket_name = "dev-blazenote"
-# remote = true
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "blazenote"
+preview_bucket_name = "dev-blazenote"
+remote = true
 
 # Enable observability logging
 [observability.logs]
